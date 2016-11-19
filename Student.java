@@ -3,11 +3,11 @@
  */
 public class Student {
 
-    String firstName;
-    String lastName;
-    int group;
-    Course[] courseTaken;
-    int age;
+    private String firstName;
+    private String lastName;
+    private int group;
+    private Course[] courseTaken;
+    private int age;
 
 
     public Student(){}
@@ -25,19 +25,19 @@ public class Student {
         this.courseTaken=courseTaken;
     }
 
-    private String getFirstName() {
+    public String getFirstName() {
         return firstName;
     }
 
-    private String getLastName() {
+    public String getLastName() {
         return lastName;
     }
 
-    private int getGroup() {
+    public int getGroup() {
         return group;
     }
 
-    private Course[] getCourseTaken() {
+    public Course[] getCourseTaken() {
         return courseTaken;
     }
 
@@ -46,27 +46,27 @@ public class Student {
         return courseTaken;
     }
 
-    private int getAge() {
+    public int getAge() {
         return age;
     }
 
-    private void setFirstName(String firstName) {
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
-    private void setLastName(String lastName) {
+    public void setLastName(String lastName) {
         this.lastName = lastName;
     }
 
-    private void setGroup(int group) {
+    public void setGroup(int group) {
         this.group = group;
     }
 
-    private void setCourseTaken(Course[] courseTaken) {
+    public void setCourseTaken(Course[] courseTaken) {
         this.courseTaken = courseTaken;
     }
 
-    private void setAge(int age) {
+    public void setAge(int age) {
         this.age = age;
     }
 }

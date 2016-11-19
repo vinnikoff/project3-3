@@ -3,9 +3,9 @@
  */
 public class CollegeStudent extends Student {
 
-    String collegeName;
-    int rating;
-    long id;
+    private String collegeName;
+    private int rating;
+    private long id;
 
     public CollegeStudent(){}
 
@@ -27,27 +27,27 @@ public class CollegeStudent extends Student {
         this.id=id;
     }
 
-    private String getCollegeName() {
+    public String getCollegeName() {
         return collegeName;
     }
 
-    private int getRating() {
+    public int getRating() {
         return rating;
     }
 
-    private long getId() {
+    public long getId() {
         return id;
     }
 
-    private void setCollegeName(String collegeName) {
+    public void setCollegeName(String collegeName) {
         this.collegeName = collegeName;
     }
 
-    private void setRating(int rating) {
+    public void setRating(int rating) {
         this.rating = rating;
     }
 
-    private void setId(long id) {
+    public void setId(long id) {
         this.id = id;
     }
 }

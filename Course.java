@@ -5,10 +5,10 @@ import java.util.*;
 import java.util.Date;
 
 public class Course {
-    Date startDate;
-    String name;
-    int hoursDuration;
-    String teacherName;
+    private Date startDate;
+    private String name;
+    private int hoursDuration;
+    private String teacherName;
 
     public Course (){}
 
@@ -27,35 +27,35 @@ public class Course {
         this.teacherName=teacherName;
     }
 
-    private Date getStartDate() {
+    public Date getStartDate() {
         return startDate;
     }
 
-    private String getName() {
+    public String getName() {
         return name;
     }
 
-    private int getHoursDuration() {
+    public int getHoursDuration() {
         return hoursDuration;
     }
 
-    private String getTeacherName() {
+    public String getTeacherName() {
         return teacherName;
     }
 
-    private void setStartDate(Date startDate) {
+    public void setStartDate(Date startDate) {
         this.startDate = startDate;
     }
 
-    private void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    private void setHoursDuration(int hoursDuration) {
+    public void setHoursDuration(int hoursDuration) {
         this.hoursDuration = hoursDuration;
     }
 
-    private void setTeacherName(String teacherName) {
+    public void setTeacherName(String teacherName) {
         this.teacherName = teacherName;
     }
 
